@@ -28,7 +28,7 @@
 
 }
 
-/*Navigation bar : List styling */
+/*Navigation bar : List styling and icon styling*/
 #navbar{
     position: relative;
 }
@@ -59,9 +59,18 @@
     color: white;
 }
 
-#navbar ul li a:hover{
-    background-color: lightgray;
-    color: black;
+#navbar ul li a img{
+    filter: invert(100%);
+    padding: 0 0.2em;
+    width: 1em;
+    height: auto;
+}
+
+#navbar ul li a:hover {
+    filter:invert(100%);
+    color: white;
+    background-color:grey;
+    
 }
 
 /* Home Section */
