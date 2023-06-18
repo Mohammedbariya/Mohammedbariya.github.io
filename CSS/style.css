@@ -1,0 +1,85 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS variables
+:root{
+    --navbar-height:59px;
+} */
+
+/* Navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}   
+
+
+/*Navigation bar : Logo and Image */
+#logo{
+    margin: 0.5% 3%;
+    
+}
+
+#logo img{
+    height: 5rem;
+    border-radius: 50%;
+
+}
+
+/*Navigation bar : List styling */
+#navbar{
+    position: relative;
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem ;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 0.1rem 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home::before{
+    content: "";
+    position: absolute;
+    background:url('../img/background_images/bg.jpg');
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
