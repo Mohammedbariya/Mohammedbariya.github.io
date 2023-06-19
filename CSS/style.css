@@ -83,7 +83,7 @@
     padding: 0.3rem 10rem;
     justify-content: center;
     align-items: center;
-    height: 30rem;
+    height: 45rem;
 }
 
 
@@ -91,7 +91,7 @@ header::after{
     content: "";
     position: absolute;
     background:url('../img/background_images/bg.jpg') no-repeat center center/cover;
-    height: 100%;
+    height: 45rem;
     width: 100%;
     z-index: -1;
     opacity: 0.9;
