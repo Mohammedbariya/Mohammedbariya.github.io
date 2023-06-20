@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="CSS/mobile_style.css">
     <link rel="shortcut icon" href="img/logos/mainlogo.png" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/Desktop_style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -87,7 +88,33 @@
             </div>
         </section> -->
     
-    
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1 class="h-primary center">Contact Me</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email:</label>
+                    <input type="text" name="Email" id="Email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="Phone">Phone:</label>
+                    <input type="Phone" name="Phone" id="Phone" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label id="message" for="message">Message:</label>
+                    <textarea name="message" id="message" cols="1" placeholder="Enter any message if you want"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+        </div>
+    </section>
     
     </main>
 </body>
