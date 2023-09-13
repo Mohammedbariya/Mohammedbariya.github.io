@@ -1,0 +1,92 @@
+#navbar{
+    justify-content: start;
+}
+.left{
+    font-size: 1rem;
+    word-wrap: break-word;
+    justify-content: start;
+    width: 100%;
+}
+.left img{
+    height: 2rem;
+}
+.left p{
+    width: 40%;
+    text-align: start;
+}
+.right{
+    width: 50%;
+}
+
+/*<------------------------------main------------------------------> */
+
+/* <----------------First section----------------> */
+.leftsection{
+    font-size: 1.5rem;
+}
+
+/* <---------------About section---------------> */
+
+#info h2{
+    font-size: 1.8rem;
+}
+#info p{
+    font-size: 1rem;
+}
+
+#info button{
+    margin: auto;
+}
+/* <--------------Resume section----------------------> */
+
+#resumenav ul{
+    /* padding: 2rem 0; */
+}
+#resumenav ul li {
+    margin: 0.3rem 0rem;
+  }
+#resumenav ul li a {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* <-Skill section--> */
+.skill-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* <-----------------Certificates section----------> */
+#Certificatesection h1 {
+    font-size: 1.5rem;
+}
+.certificates {
+    flex-direction: column;
+    align-items: center;
+}
+.certificate{
+    width: 60vw;
+    height: 10rem;
+    margin: 0.3rem auto;
+}
+
+/* <-----------------Contact section----------> */
+.Contactcontainer{
+    flex-direction: column;
+}
+.maincontactinfo{
+    max-width: 60%;
+}
+.messagebox{
+    width: 80%;
+}
+
+/* <----------------- footer ------------------> */
+#footercontainer{
+    flex-direction: column;
+}
+#footercontainer > div{
+    width: 80%;
+    padding: 2rem 0;
+}
