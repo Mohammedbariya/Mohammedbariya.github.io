@@ -18,8 +18,8 @@ function startTypingLoop() {
 
 
 function typing_animation(num){
-    var word = words[num];
-    var index = 0;
+    let word = words[num];
+    let index = 0;
     function type_word(){
         if (index <=word.length){
             element.innerHTML = word.substring(0, index) + '<span class="cursor">|</span>';
@@ -29,6 +29,7 @@ function typing_animation(num){
     }
     type_word();
 }
+
 
 
 startTypingLoop();
