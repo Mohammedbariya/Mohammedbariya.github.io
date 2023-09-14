@@ -2,7 +2,7 @@ let element = document.getElementById('element');
 const words = ['Web Developer', 'Fast Learner', 'Problem Solver', 'Software Engineer'];
 
 let currentIndex = 0;
-let speed = 200
+let speed = 250
 
 function startTypingLoop() {
     if (currentIndex >= words.length) {
@@ -30,6 +30,18 @@ function typing_animation(num){
     type_word();
 }
 
+function revtyping_animation(num){
+    let word = words[num];
+    let index = word.length;
+    function type_word(){
+        if (index >=0){
+            element.innerHTML = word.substring(0, index) + '<span class="cursor">|</span>';
+            index--;
+            setTimeout(type_word,speed);
+        }
+    }
+    type_word();
+}
 
 
 startTypingLoop();
