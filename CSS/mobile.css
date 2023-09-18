@@ -39,15 +39,19 @@
 }
 /* <--------------Resume section----------------------> */
 
-#resumenav ul{
-    /* padding: 2rem 0; */
-}
+
 #resumenav ul li {
-    margin: 0.3rem 0rem;
+    margin: 0.5rem 0rem;
 }
 #resumenav ul li a {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: 0;
+}
+.pageheading{
+    text-align: center;
+}
+.pagetext > *{
+    padding: 0.5rem 0;
 }
 
 /* <-Skill section--> */

@@ -1,5 +1,7 @@
 let burger = document.getElementById('burger');
 let rightnav = document.getElementById('rightnav');
+let main = document.getElementById('main')
+
 burger.addEventListener('click', () => {
     if (rightnav.style.display == "none") {
         rightnav.style.display = "block";
@@ -9,6 +11,9 @@ burger.addEventListener('click', () => {
         rightnav.style.display = "none";
         // rightnav.style.opacity = 0;
     }
+});
+main.addEventListener('click',()=>{
+    rightnav.style.display = "none";
 });
 
 let resumenav = document.getElementById('resumenav');

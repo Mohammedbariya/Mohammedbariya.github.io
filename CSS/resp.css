@@ -81,6 +81,7 @@
 .row{
     justify-content: space-between;
 }
+
 #resumenav ul{
     position: sticky;
     background: #13133e;
@@ -113,6 +114,9 @@
     height: 1rem;
     filter: invert(100%);
     margin-right: 0.5rem;
+}
+.pagetext{
+    line-height: 2rem;
 }
 
 /* <-----------------Certificates section----------> */
