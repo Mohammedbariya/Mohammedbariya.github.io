@@ -65,10 +65,7 @@
 #Certificatesection h1 {
     font-size: 1.5rem;
 }
-.certificates {
-    flex-direction: column;
-    align-items: center;
-}
+
 .certificate{
     width: 60vw;
     height: 10rem;

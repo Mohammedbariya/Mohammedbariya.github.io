@@ -169,15 +169,13 @@ a{
 }
 #info ul li {
   margin: 0.5rem 0;
+  display: flex;
 }
-#info ul li span {
-  display: inline-block;
-  height: 2rem;
-  width: calc(100% - 130px);
-}
-#info ul li span.bold {
-  font-weight: bold;
-  width: 130px;
+
+#info ul li div.bold{
+    font-weight: bold;
+    width: max-content;
+    padding: 0 1rem;
 }
 
 /* <--------------Resume section----------------------> */
