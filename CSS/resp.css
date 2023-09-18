@@ -56,10 +56,7 @@
 #info h2{
     text-align: center;
 }
-#info ul li span {
-    height: 100%;
-    word-wrap: break-word;
-}
+
 #info ul li{
     display: flex;
 }
