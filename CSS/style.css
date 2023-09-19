@@ -172,7 +172,7 @@ a{
   display: flex;
 }
 
-#info ul li div.bold{
+#info ul li .bold{
     font-weight: bold;
     width: max-content;
     padding: 0 1rem;
