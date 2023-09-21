@@ -281,7 +281,7 @@ a{
   width: 100%;
   margin-bottom: 10px;
 }
-.header p {
+.header h3 {
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -343,6 +343,10 @@ a{
 .skill-bar .bar .nodejs {
   width: 55%;
   max-width: 55%;
+}
+.skill-bar .bar .tailwind {
+  width: 30%;
+  max-width: 30%;
 }
 
 /* <-----------------Certificates section----------> */
