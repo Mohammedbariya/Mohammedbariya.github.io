@@ -18,7 +18,6 @@ main.addEventListener('click',()=>{
 
 let resumenav = document.getElementById('resumenav');
 let resumenavlist = document.getElementsByClassName("resumenavlist")
-// let resumenavlist = document.getElementById('resumenavlist');
 let resumenavtoggle = document.getElementById('resumenavtoggle');
 
 
