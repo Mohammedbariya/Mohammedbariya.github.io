@@ -324,29 +324,29 @@ a{
     width: 100%;
   }
 }
-.skill-bar .bar .html {
+.html {
   max-width: 90%;
   width: 90%;
 }
-.skill-bar .bar .css {
+.css {
   max-width: 80%;
   width: 80%;
 }
-.skill-bar .bar .js {
+.js {
   max-width: 70%;
   width: 70%;
 }
-.skill-bar .bar .git {
+.git {
   width: 65%;
   max-width: 65%;
 }
-.skill-bar .bar .nodejs {
+.nodejs {
   width: 55%;
   max-width: 55%;
 }
-.skill-bar .bar .tailwind {
+.tailwind {
+    max-width: 30%;
   width: 30%;
-  max-width: 30%;
 }
 
 /* <-----------------Certificates section----------> */
