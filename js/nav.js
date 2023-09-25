@@ -8,11 +8,11 @@ window.addEventListener('scroll',()=>{
     sections.forEach(section =>{
         const sectiontop = section.offsetTop;
         const sectionheight = section.clientHeight;
-        if(scrollY >= sectiontop){
+        if(scrollY >= (sectiontop - sectionheight/3)){
             current = section.getAttribute('id');
         }
     });
-    console.log(current);
+    // console.log(current);
     navli.forEach( li =>{
         li.classList.remove('active');
         if(li.classList.contains(current)){
