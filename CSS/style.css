@@ -89,11 +89,12 @@ a {
   padding: 1.8rem 0;
   font-weight: 600;
 }
-.right ul li a:hover {
+.right ul li a:hover , .active {
   color: #c689ff;
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
+
 #burger {
   display: none;
   position: absolute;
