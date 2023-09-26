@@ -208,14 +208,19 @@ a {
   margin: 0.8rem 0rem;
 }
 #resumenav ul li a {
-  color: white;
-  text-decoration: none;
   font-size: 1.15rem;
   font-weight: bold;
+}
+#resumenav ul li a:hover{
+    color: #c689ff;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
 }
 #resumenavtoggle {
   display: none;
 }
+
+
 
 /* <--Resume Right---> */
 #resumeright {
