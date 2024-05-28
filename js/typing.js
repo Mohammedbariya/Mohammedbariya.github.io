@@ -1,5 +1,5 @@
 let element = document.getElementById('element');
-const words = ['Web Developer', 'Fast Learner', 'Problem Solver', 'Software Engineer'];
+const words = ['Data Scientist', 'Fast Learner', 'Problem Solver', 'AI Enthusiast'];
 
 let currentIndex = 0;
 let speed = 250

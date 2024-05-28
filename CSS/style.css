@@ -329,29 +329,20 @@ a {
     width: 100%;
   }
 }
-.html {
+.python {
   max-width: 90%;
   width: 90%;
 }
-.css {
-  max-width: 80%;
-  width: 80%;
-}
-.js {
-  max-width: 70%;
-  width: 70%;
-}
+
+
 .git {
-  width: 65%;
-  max-width: 65%;
+  width: 75%;
+  max-width: 75%;
 }
-.nodejs {
-  width: 55%;
-  max-width: 55%;
-}
-.tailcss {
-  max-width: 30%;
-  width: 30%;
+
+.Data_viz {
+  width: 60%;
+  max-width: 60%;
 }
 
 /* <-----------------Certificates section----------> */
